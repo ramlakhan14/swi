@@ -1,0 +1,62 @@
+{
+  "adminUsers": [
+    {
+      "email": "admin@example.test",
+      "password": "DemoAdmin123!",
+      "first_name": "Local",
+      "last_name": "Admin"
+    }
+  ],
+  "dealerUsers": [
+    {
+      "login": "DEMO-DEALER",
+      "password": "DemoDealer123!",
+      "first_name": "Demo",
+      "last_name": "Dealer",
+      "role_id": 2
+    },
+    {
+      "login": "DEMO-SUBDEALER",
+      "password": "DemoSubdealer123!",
+      "first_name": "Demo",
+      "last_name": "Subdealer",
+      "role_id": 3,
+      "roles_id": 3
+    }
+  ],
+  "dashboard": {
+    "main_product": {
+      "news": [
+        {
+          "title": "Local demo data",
+          "message": "Sample dashboard content served from the local mock database."
+        }
+      ],
+      "product": {
+        "id": 101,
+        "product_name": "Demo Product One",
+        "product_logo": "/src/assets/icons/ic-product.png"
+      },
+      "categories": [
+        { "id": 1, "category_name": "Demo Catalogs", "files": [] },
+        { "id": 2, "category_name": "Demo Price Sheets", "files": [] }
+      ],
+      "product_details": [
+        { "id": 1, "text": "Product overview and sample specifications" },
+        { "id": 2, "text": "Demo warranty and support information" }
+      ]
+    },
+    "related_products": [
+      {
+        "id": 102,
+        "product_name": "Demo Product Two",
+        "product_logo": "/src/assets/icons/ic-product.png"
+      },
+      {
+        "id": 103,
+        "product_name": "Demo Product Three",
+        "product_logo": "/src/assets/icons/ic-product.png"
+      }
+    ]
+  }
+}
